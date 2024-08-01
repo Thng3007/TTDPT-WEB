@@ -8,7 +8,15 @@ function showInfo() {
     //var lang="vi-VN";
     var lang = getLang();
     var member = members[urlParams.get('code')][lang];
-    $('.myinfo').each(function(i, obj) {
+    $('.img-fluid my-avatar').each(function(i, obj) {
+        $("#" + obj.id).html(member[obj.id]);
+    });
+}
+
+function showAva() {
+    var lang = getLang();
+    var member = members[urlParams.get('code')][lang];
+    $('.img-fluid my-avatar').each(function(i, obj) {
         $("#" + obj.id).html(member[obj.id]);
     });
 }

@@ -2,6 +2,7 @@ var members = {
     "2454": {
         "en": {
             "home-code": "002454",
+            "avatar": " /asssets/img/avt-ttdpt/PTHNgan.jpg",
             "home-name": " Dr. Pham Truong Hong Ngan",
             "home-slogan": "The tiger of the mountain",
             "about-intro": "About Ngan",
@@ -23,6 +24,7 @@ var members = {
         "vi": {
             "home-code": "002454",
             "home-name": "Phạm Trương Hồng Ngân",
+            "avatar": " /asssets/img/avt-ttdpt/PTHNgan.jpg",
             "home-slogan": "The tiger of the mountain",
             "about-position": "Giảng viên",
             "about-degree": "Tiến sĩ",
