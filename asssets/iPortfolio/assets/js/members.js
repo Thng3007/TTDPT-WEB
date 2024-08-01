@@ -66,6 +66,7 @@ var members = {
         "en": {
             "home-code": "003006",
             "home-name": " Dr. Nguyen Viet Thanh",
+            "avatar": " /asssets/img/avt-ttdpt/NVThanh.jpg",
             "home-slogan": "abcdefg",
             "about-intro": "About Thanh",
             "about-position": "Lecture",
@@ -86,6 +87,7 @@ var members = {
         "vi": {
             "home-code": "003006",
             "home-name": "Dr. Nguyễn Viết Thanh",
+            "avatar": " /asssets/img/avt-ttdpt/NVThanh.jpg",
             "home-slogan": "abcdefg",
             "about-position": "Giảng viên",
             "about-degree": "Tiến sĩ",
