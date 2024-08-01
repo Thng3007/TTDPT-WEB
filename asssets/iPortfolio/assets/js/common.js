@@ -14,12 +14,13 @@ function showInfo() {
 }
 
 function showAva() {
-    var lang = getLang();
-    var member = members[urlParams.get('code')][lang];
-    $('.img-fluid my-avatar').each(function(i, obj) {
-        $("#" + obj.id).html(member[obj.id]);
-    });
+    var lang = getLang(); // Function to get the current language
+    var code = urlParams.get('code'); // Assuming urlParams is defined
+    var member = members[code][lang];
+
+    $('.img-fluid.my-avatar').attr('src', member['avatar']);
 }
+
 
 function changeLanguage(lang) {
     urlParams.set('lang', lang);
@@ -30,7 +31,7 @@ function changeLanguage(lang) {
 
 $(document).ready(function() {
     showInfo();
-
+    showAva();
     $('.lang').on('click', function() {
         var lang = $(this).data('lang');
         switchLanguage(lang);
