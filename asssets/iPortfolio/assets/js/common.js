@@ -18,7 +18,6 @@ function showAva() {
     var code = urlParams.get('code'); // Assuming urlParams is defined
     var member = members[code][lang];
 
-
     // Set the src attribute for the first img element
     $('.img-fluid.my-avatar').attr('src', member['avatar']);
 
